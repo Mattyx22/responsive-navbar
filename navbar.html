@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NAVBAR</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="code.js"></script>
+</head>
+<body>
+  <ul class="nav-container">
+    <li class="menu-text" onclick="showMenu()">MENU</li>
+    <li class="nav-btn">Home</li>
+    <li class="nav-btn">Page 1</li>
+    <li class="nav-btn">Page 2</li>
+    <li class="nav-btn nav-btn-dropdown" onclick="dropdown()">
+      <a class="nav-a-href">Dropdown</a>
+      <div class="nav-dropdown">
+        <ul class="nav-dropdown-ul">
+            <li class="nav-dropdown-link">1</li>
+            <li class="nav-dropdown-link">2</li>
+        </ul>
+      </div>
+    </li>
+    <li class="nav-btn">Page 3</li>
+    <li class="nav-btn">Page 4</li>
+    <li class="nav-btn nav-btn-r">Right</li>
+  </ul>
+</body>
+</html>
